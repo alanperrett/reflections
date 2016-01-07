@@ -1,0 +1,9 @@
+What happens when you initialise a repository, why do you need to do it?
+
+Git creates a .git folder in the location that you initialise. No files are tracked or included in a commit at this stage.
+
+You need to do this to tell Git that this is where it needs to track the files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area allows you to assemble the files that ae going to be tracked to make a logical commit. The value is that otherwise multiple commits would need to be made, which may not represent a logical unit.
