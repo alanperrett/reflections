@@ -10,3 +10,10 @@ Staging area allows you to assemble the files that ae going to be tracked to mak
 
 How can you use the staging area to make sure that you have one commit per logical change?
 Assemble the files with the changes needed for a single logicl chane in the staging area then commit as one logical change.
+
+What are some situations when branches woudl be helpful in keeping your hisotry organised? 
+How would branches help?
+
+If you were adding an experimental feature or trying something risky then branching might make sense. Also if
+if there were to be different versions for different hardware platforms that migth make sense.
+Branches would help by keeping a known working master brach so that can still be used whenever needed.
