@@ -7,3 +7,6 @@ You need to do this to tell Git that this is where it needs to track the files.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area allows you to assemble the files that ae going to be tracked to make a logical commit. The value is that otherwise multiple commits would need to be made, which may not represent a logical unit.
+
+How can you use the staging area to make sure that you have one commit per logical change?
+Assemble the files with the changes needed for a single logicl chane in the staging area then commit as one logical change.
