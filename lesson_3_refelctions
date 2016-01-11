@@ -21,3 +21,13 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 It might be possible to use file sharing sites like google docs to all work on the same file. Alternatively
 files could be shared. However keeping track of changes and maintaining a known working version woudl be 
 very difficult. 
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+You might want to make chenges in a seperate branch rather than directly in master is much the same advantage
+as making changes to a seperate branch using only local repos - the ability to try things out, being able to
+mae big changes that are multiple commits where each one may not be working until the final one, but without 
+breaking master. If other people are using master then you won't brrak it. Of course this means that you need
+to keep up to date and the whole -pull changes - merge master to local branch - push the branch to remote -
+merge to master - is very complicated.
+
