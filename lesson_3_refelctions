@@ -17,4 +17,7 @@ What is the benefit of having a copy of the last known state of the remote store
 For off line working this is useful, but evan with internet access it makes sense to have a local copy to 
 check merges and commits without interacting with the remote repo.
 
-
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+It might be possible to use file sharing sites like google docs to all work on the same file. Alternatively
+files could be shared. However keeping track of changes and maintaining a known working version woudl be 
+very difficult. 
